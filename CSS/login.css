@@ -1,0 +1,296 @@
+body {
+    background-image: url('/images/login/welcome_enroll.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* 头部开始 */
+.top {
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 190px;
+    height: 120px;
+    background-image: url('/images/header/jd-logo.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 0 -70%;
+}
+/* 头部结束 */
+
+/* 主体板块开始 */
+.mid {
+    position: relative;
+    margin: 0 auto;
+}
+.mid .regist {
+    position: absolute;
+    top: 80px;
+    left: 50%; 
+    margin-left: -350px;
+    width: 700px;
+    height: 400px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
+}
+.mid .regist .left{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    width: 420px;
+    height: 360px;
+    border-radius: 12px;
+}
+/* 顶部提示 */
+.left .registTip {
+    padding-top: 10px;
+    padding-left: 80px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FF860D;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.left .registTip i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url('/images/login/icon-tips.png');
+    background-repeat: no-repeat;
+}
+
+/* 导航标题 */
+.left .title {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin: 40px auto 20px;
+}
+.left .title li {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.left .title .user {
+    padding-left: 20px;
+    float: left;
+}
+.left .title .phone {
+    padding-right: 20px;
+    float: right;
+}
+.left .title .title_split {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 1px;
+    height: 40px;
+    background: linear-gradient( 180deg, #f5f5f5, #e5e5e5, #e5e5e5, #f5f5f5);
+}
+
+/* 输入框 */
+.left .input {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -120px;
+    width: 240px;
+    height: 112px;
+}
+.input input {
+    width: 212px;
+    height: 30px;
+    margin: 10px 10px;
+    padding: 1px 5px;
+    outline: none;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+.left .input div:hover {
+    cursor: text;
+}
+.input .passwardText {
+    position: absolute;
+    top: 65px;
+    left: 16px;
+}
+.userEnroll .userText {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+.left .userEnroll div {
+    width: 212px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #888;
+}
+.userEnroll i {
+    position: absolute;
+    top: 65px;
+    right: 14px;
+    font-size: 20px;
+    color: #7d7d7d;
+}
+.phoneEnroll {
+    display: none;
+}
+.phoneEnroll .up{
+    padding: 1px 6px 1px 64px;
+    width: 152px;
+}
+.phoneEnroll .userText {
+    position: absolute;
+    top: 12px;
+    left: 76px;
+    width: 152px;
+}
+.phoneEnroll .area {
+    position: absolute;
+    top: 18px;
+    left: 14px;
+    outline: none;
+    border: 0;
+    width: 52px;
+}
+.phoneEnroll div {
+    width: 212px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #888;
+}
+/* 提交按钮 */
+.left .submit {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    margin-left: -110px;
+    width: 224px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #fd9d94;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: not-allowed;
+}
+.other-regist-Method {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    bottom: 0;
+    left: 14px;
+}
+.other-regist-Method div {
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.other-regist-Method div a {
+    color: #666;
+}
+.other-regist-Method div a:hover {
+    color: #e4393c;
+    text-decoration: underline;
+}
+.wechat {
+    float: left;
+}
+.wechat i {
+    color: #73c337;
+}
+.qq {
+    float: right;
+}
+.qq i {
+    color: #00a0e9;
+}
+.enroll {
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    bottom: 0;
+    right: 14px;
+    font: 16px;
+}
+.enroll a {
+    color: #595959;;
+    cursor: pointer;
+}
+.enroll a:hover {
+    text-decoration: underline;
+}
+.split {
+    position: absolute;
+    top: 20px;
+    right: 240px;
+    height: 360px;
+    width: 1px;
+    background: linear-gradient( 180deg, #f5f5f5, #e5e5e5, #e5e5e5, #f5f5f5);
+}
+.right {
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 360px;
+    border-radius: 12px;
+}
+.ewm_title {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #11192d;
+    text-align: center;
+    line-height: 40px;
+    margin: 66px auto 20px;
+}
+.ewm-box {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    padding: 10px;
+    top: 126px;
+    right: 10px;
+    border: 1px solid #e5e8ec;
+    border-radius: 8px;
+}
+.ewm {
+    width: 160px;
+    height: 160px;
+    background-image: url('/images/login/ewm.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.right .tips {
+    position: absolute;
+    bottom: 0;
+    right: 2px;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    line-height: 40px;
+}
+.tips span {
+    color: #e4393c;
+    font-size: 14px;
+}
+/* 主体板块结束 */
